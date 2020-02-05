@@ -5,16 +5,16 @@ nav {
 }
 
 nav #box {
-  height: 10px;
-  width: 10px;
   border-bottom: 1px solid #000;
   border-left: 1px solid #000;
-  position: absolute;
-  top: 13px;
-  left: -20px;
   cursor: pointer;
+  height: 10px;
+  left: -20px;
+  position: absolute;
   -webkit-transition: .4s ease-in;
   transition: .4s ease-in;
+  top: 13px;
+  width: 10px;
 }
 
 nav .rotate {
@@ -28,15 +28,15 @@ nav .rotated {
 }
 
 nav button {
-  height: 35px;
-  width: 75px;
-  font-size: 14px;
-  font-weight: bold;
-  color: white;
-  font-family: sans-serif;
   background: #00eeff;
   border: none;
   border-radius: 5px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 35px;
+  width: 75px;
 }
 
 .slide {
